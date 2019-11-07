@@ -1,0 +1,11 @@
+Instalation Steps:
+
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+django-admin startproject minha_api .
+django-admin startapp user
+python manage.py migrate
+python manage.py createsuperuser
+
+
